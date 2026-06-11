@@ -32,7 +32,7 @@ interview_id INT PRIMARY KEY,
 application_id INT,
 round INT,
 result varchar(50),
-FOREIGN KEY (application_id) REFERENCES applications (application_is)
+FOREIGN KEY (application_id) REFERENCES applications (application_id)
 );
 
 
